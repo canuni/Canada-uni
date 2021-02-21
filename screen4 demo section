@@ -1,2 +1,16 @@
 print("\033[0;34;47m \n")
 txt1 = "Your slot has been confirmed."
+
+x = txt1.center(50, " ")
+print(x)
+txt2 = "Thank you for booking!"
+y = txt2.center(50, " ")
+print(y)
+print("\033[0;34;47m \033[0m \n")
+
+print()
+from PIL import Image
+myImage = Image.open("QRcode.jpeg");
+myImage.show();
+
+print("Please take this QR code and your health card with you to the site. This QR code is valid for 24 hours prior to your appointment.")
