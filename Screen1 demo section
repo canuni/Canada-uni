@@ -1,0 +1,7 @@
+print("Welcome to Canada uni!")
+
+from PIL import Image
+myImage = Image.open("canadauni.jpeg");
+myImage.show();
+
+print("Please type in your health card number to start:")
